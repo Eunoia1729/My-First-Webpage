@@ -1,0 +1,234 @@
+body
+{
+ background: url(images/pattern3.jpg);
+ background-size:cover;
+}
+.box1
+{
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  background-image: url(images/images.jpeg);
+  height:600px;
+  width: 96%;
+  border-radius: 10px;
+  padding: 0px 30px 50px 30px;
+  margin-bottom: 30px;
+}
+.box2
+{
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  height: 700px;
+  width: 96%;
+  border-radius: 20px;
+  border-color: #6a6a6a;
+  padding: 5px 30px 50px 30px;
+  margin-bottom: 30px;
+}
+
+.box3
+{
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  height: 1030px;
+  width: 96%;
+  border-radius: 20px;
+  border-color: #6a6a6a;
+  padding: 5px 30px 50px 30px;
+  margin-bottom: 30px;
+}
+.box4
+{
+  background: rgba(0,0,0,0.8);
+  position: relative;
+  height: 700px;
+  width: 96%;
+  border-radius: 20px;
+  border-color: #6a6a6a;
+  padding: 5px 30px 50px 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contact
+{
+  position:relative;
+  padding: 0px 100px 0px 100px;
+  margin-left: 380px;
+}
+.contact div
+{
+   margin: 0px 20px 0px 20px;
+}
+.pquote
+{
+    float: right;
+    width: 200px;
+    color: pink;
+    font-size: 26px;
+    line-height: 0.9;
+    font-style: italic;
+    font-family:"Raleway", sans-serif;
+    padding: 0px;
+}
+blockquote {
+    margin: 0;
+}
+.box1 p
+{
+   font-size: 200px;
+   font-family: Rancho, helvetica, aria;
+   padding-bottom: 20px;
+   padding-top: 5px;
+   margin-top: 5px;
+   text-shadow: grey 5px 5px;
+}
+.circle1
+{
+   background-color: orange;
+   position: absolute;
+   top:50%;
+   left:15%;
+   height: 180px;
+   width:  180px;
+   border-radius: 90px;
+   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.circle2
+{
+   background-color: orange;
+   position: absolute;
+   top:50%;
+   left:75%;
+   height: 180px;
+   width:  180px;
+   border-radius: 90px;
+   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.circle3
+{
+   background-color: orange;
+   position: absolute;
+   top:60%;
+   left:45%;
+   height: 180px;
+   width:  180px;
+   border-radius: 90px;
+   box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+}
+.circle1:focus {
+    border: 1px solid #07c;
+    box-shadow: 0 0 10px #07c;
+}
+.circle1 p, .circle2 p, .circle3 p
+{
+  font-size: 65px;
+  margin-top: 45px;
+}
+p
+{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.header
+{
+  text-align: center;
+  font-family: "Raleway","Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #D0CFCF;
+  font-weight: 100;
+  font-size: 300%;
+  margin-bottom: 0px;
+}
+.icons div:hover
+{
+	background: #eee;
+  border-radius: 20px;
+  color: black;
+
+}
+.icons :hover p
+{
+	color: black;
+
+}
+.icons div
+{
+    display: inline-block;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-left: 70px;
+}
+.icons p
+{
+  font-family: "Raleway","Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size: 40px;
+  color: #eee;
+}
+.box4 div
+{
+  display: inline-block;
+  padding-top: 100px;
+}
+.contact div{
+  display: inline-block;
+}
+.line
+{
+  width: 400px;
+  text-align:center;
+}
+.popup
+{
+   cursor: pointer;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 27%;
+    margin-left: -80px;
+}
+.popup .show
+{
+    visibility: visible;
+    -webkit-animation: fadeIn 0.5s;
+    animation: fadeIn 0.5s;
+}
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+footer
+{
+  position: relative;
+  text-align: center;
+  bottom: 0%;
+  right:0%;
+  color: black;
+}
+a
+{
+  color:pink;
+}
+footer a
+{
+   color: #FF5555;
+}
+.normal p
+{
+  font-family: "Tangerine";
+  font-size: 50px;
+  color: #fff;
+  font-weight: 500;
+}
